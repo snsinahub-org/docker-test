@@ -1,0 +1,6 @@
+services:
+  web:
+    image: "snsinahub/httpd:latest"
+    ports:
+      - "9596:80"
+    privileged: true
